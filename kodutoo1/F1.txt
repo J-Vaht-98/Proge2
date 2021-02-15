@@ -1,0 +1,5 @@
+Markus 3 Jalgpall Korvpall Tennis
+Timo 2 Korvpall Hoki
+Liis 1 Jalgpall
+Tauri 3 Korvpall Tennis Hoki
+Elmo 4 Korvpall Tennis Hoki Jalgpall
