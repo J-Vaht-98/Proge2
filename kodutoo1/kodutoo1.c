@@ -1,3 +1,21 @@
+/*Variant K-4
+
+1. kodune ülesanne
+Failid+kirjed
+
+Koostada algoritm  ja sellele üksüheselt vastav programm (C- või Java-keeles), mille abil:
+1.    failist F1 sisestatakse kirjed struktuuriga:
+•	Nimi – string,
+•	H (huvialade arv) – naturaalarvuline (0H10),
+•	Hobbi (huvialad) – stringide massiiv;
+2.    klaviatuurilt sisestatakse string Huvi;
+3.	faili F2 väljastatakse kõikide antud huviala fännide nimed ja 
+       aadressid.
+
+
+Programm peab sisaldama vähemalt kahte funktsiooni koos prototüüpide kirjeldustega mis peavad asuma teises failis.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,13 +25,10 @@ struct andmed;
 
 
 /**************PROTOTYYBID*******/
-int saaRidadeArvFailis(FILE* fp);
-FILE *avaFail(char faili_nimi[50], char otstarve[3]);
-void kysiHuviala(char*);
+
 void loeAndmed(FILE* fp,andmed huvid[]);
 void andmedFaili(FILE* fp, andmed huvid[], char huvi[20],int suurus);
-void valjastaHuvid(andmed h[],int n);
-void strLowercase(char huvi[20]);
+
 
 int main(void){
     /*Faili lugemine*/
