@@ -9,6 +9,14 @@ typedef struct andmed
     
 }andmed;
 
+/**************PROTOTYYBID*******/
+
+int saaRidadeArvFailis(FILE* fp);
+FILE *avaFail(char faili_nimi[50], char otstarve[3]);
+void kysiHuviala(char*);
+void valjastaHuvid(andmed h[],int n);
+void strLowercase(char huvi[20]);
+
 FILE *avaFail(char faili_nimi[50], char otstarve[3]){
     FILE *fp;
     fp = fopen(faili_nimi, otstarve);
